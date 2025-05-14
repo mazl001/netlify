@@ -4,7 +4,7 @@ describe('empty spec', () => {
   })
   it('displays the resources text', () => {
     cy.get('h2')
-    .contains('This is a bare-bones Hugo project that has everything you need to quickly deploy it to Netlify');
+    .contains('「ShuShu」是一款聚合海量影视资源的App, 提供电影、电视、综艺、动漫等视听内容，支持演员作品查询，通过智能算法推荐精准匹配观影偏好');
   })
   it('renders the image', () => {
     cy.get('img')
